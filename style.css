@@ -82,27 +82,34 @@ button:hover {
   transform: translateX(-50%);
   padding-top: 0;
 }
+
 .explanation h2 {
   font-size: 20px;
   margin-top: 50px;
   margin-bottom: 10px;
   text-align: center;
 }
+
 .explanation p {
   margin-bottom: 10px;
 }
+
 .explanation ul {
   margin-bottom: 20px;
 }
+
 .explanation li {
   margin-bottom: 10px;
 }
+
 .explanation a {
   color: #4caf50;
 }
+
 .explanation a:hover {
   text-decoration: underline;
 }
+
 .explanation.active {
   display: block; /* Show the box when active */
 }
@@ -116,6 +123,7 @@ select {
   font-size: 1em;
   text-align: center;
 }
+
 select:focus {
   outline: none;
   border-color: #4caf50;
@@ -124,6 +132,28 @@ select:focus {
 .info {
   color: red;
   position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.name {
+  color: red;
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.score {
+  color: red;
+  position: absolute;
+  top: 70px;
   font-size: 20px;
   font-weight: bold;
   margin: 0;

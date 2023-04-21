@@ -486,7 +486,7 @@
         <button id="increase-1">Increment 1 generation</button>
         <button id="increase-23">Increment 23 generations</button>
     </div>
-    <div class="btn-container">
+    <div class="btn-container  btn-pattern">
         <select id="pattern-select">
             <option value="" disabled selected>Select a pattern</option>
             <option value="Beehive">The Beehive</option>

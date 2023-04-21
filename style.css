@@ -159,7 +159,29 @@ select:focus {
   margin: 0;
 }
 
-/* Main game css start here */
 .alive {
   background-color: yellow;
+}
+
+@media screen and (max-width: 670px) {
+  .info {
+    position: unset;
+    text-align: center;
+  }
+
+  .btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+  }
+
+  .btn-increment,
+  .btn-pattern {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-container button {
+    margin: 0 auto;
+  }
 }

@@ -21,10 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             break;
         }
     }
-
+    if ($player_found === true){
     // Join the updated lines and write them back to the file
     $updated_content = implode("\n", $lines);
     file_put_contents($filename, $updated_content);
+    }
 } else {
     http_response_code(405); // Method Not Allowed
 }
